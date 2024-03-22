@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { FaHome } from "react-icons/fa";
 import { IoIosBed } from "react-icons/io";
@@ -30,11 +29,13 @@ function App() {
       <h1 className='text-white text-4xl'>Welcome to our smart home Apllication website</h1>
      </div>
     </div>
+
+
    <div class="w-full h-screen bg-[#FBF5E9] grid grid-cols-[100%]">
     <div className='h-[100%]'>
     <div className=''>
-        <div className='text-[#4B573C] text-[25px] font-bold pt-3 flex justify-center items-center'>Control Pannel</div>
-        <div className='pl-8 pt-9'><HiOutlineLightBulb className='text-4xl text-red-900'/></div>
+        <div className='text-[#4B573C] text-[25px] font-bold pt-3 flex justify-center items-center'>Control Pannel 1</div>
+        <div className='pl-8 pt-7'><HiOutlineLightBulb className='text-4xl text-red-900'/></div>
         <div className='flex justify-between items-center pt-5 pl-8 pr-8'>
           <div className='text-[20px] font-semibold text-[#4B573C] '>Main</div>
           <div><Switch {...label} defaultChecked /></div>
@@ -54,7 +55,30 @@ function App() {
         
       </div>
     </div>
-    <div className='h-[100%] flex justify-center items-center'>2</div>
+    <div className='h-[100%]'>
+    <div className=''>
+        <div className='text-[#4B573C] text-[25px] font-bold pt-3 flex justify-center items-center'>Control Pannel 2</div>
+        <div className='pl-8 pt-7'><HiOutlineLightBulb className='text-4xl text-red-900'/></div>
+        <div className='flex justify-between items-center pt-4 pl-8 pr-8'>
+          <div className='text-[20px] font-semibold text-[#4B573C] '>Main</div>
+          <div><Switch {...label} defaultChecked /></div>
+        </div>
+        <div className='flex justify-between items-center pt-4 pl-8 pr-8'>
+          <div className='text-[20px] font-semibold text-[#4B573C] '>Kitchen</div>
+          <div><Switch {...label} defaultChecked /></div>
+        </div>
+        <div className='flex justify-between items-center pt-4 pl-8 pr-8'>
+          <div className='text-[20px] font-semibold text-[#4B573C] '>Bedroom</div>
+          <div><Switch {...label} defaultChecked /></div>
+        </div>
+        <div className='flex justify-between items-center pt-4 pl-8 pr-8'>
+          <div className='text-[20px] font-semibold text-[#4B573C] '>Corridor</div>
+          <div><Switch {...label} defaultChecked /></div>
+        </div>
+        
+      </div>
+    </div>
+    
    </div>
 </div>
     </div>
